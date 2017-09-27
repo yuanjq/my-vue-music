@@ -1,0 +1,21 @@
+<template>
+  <div id="app" @touchmove.prevent>
+    <m-header></m-header>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
+  </div>
+</template>
+
+<script type="text/ecmascript-6">
+  import MHeader from 'components/m-header'
+
+  export default {
+    components: {
+      MHeader
+    }
+  }
+</script>
+  
+<style>
+</style>

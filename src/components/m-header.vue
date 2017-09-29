@@ -32,7 +32,7 @@
 			display: inline-block
 			vertical-align: top
 			line-height: 44px
-			font-size $font-szie-large
+			font-size: $font-size-large
 		.mine
 			position: absolute
 			top: 0
